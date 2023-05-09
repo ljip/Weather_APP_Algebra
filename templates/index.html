@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/static/style.css">
+
+    <div class="logo">
+        <img src="/static/images/logo.png" alt="Logo" width="540" height="235">
+    </div>
+</head>
+<body>
+    <h1>weather forecast</h1><br>
+    <table>
+        <tr>
+          <td>
+            <h4>Today weather</h4>
+            <form action="{{ url_for('weather_today') }}" method="post"><br>
+              <label for="today-city">Enter city name:</label><br><br>
+              <input type="text" id="today-city" name="city" required placeholder="city name"><br><br>
+              <button type="submit">Get Weather</button>
+            </form>
+          </td>
+          <td>
+            <h4>Three days weather</h4>
+            <form action="{{ url_for('weather_three_days') }}" method="post"><br>
+              <label for="three-days-city">Enter city name:</label><br><br>
+              <input type="text" id="three-days-city" name="city" required placeholder="city name"><br><br>
+              <button type="submit">Get Weather</button>
+            </form>
+          </td>
+          <td>
+            <h4>Seven-day weather</h4>
+            <form action="{{ url_for('weather_seven_days') }}" method="post"><br>
+              <label for="seven-days-city">Enter city name:</label><br> <br>
+              <input type="text" id="seven-days-city" name="city" required placeholder="city name"><br><br>
+              <button type="submit">Get Weather</button>
+            </form>
+          </td>
+        </tr>
+      </table>      
+      <br>
+      <div class="wrapper">
+        <div class="button">
+            <div class="icon">
+                <a href="{{url_for('contact')}}" class="icon">
+                    <img src="/static/images/contact.png" width="30" height="30" alt="contact">
+                </a>
+            </div>
+            <span>Contact</span>
+        </div>
+</body>
+</html>

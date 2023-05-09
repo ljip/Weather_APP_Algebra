@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather forecast for {{ city }}</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+</head>
+<body>
+    <h1>Weather Forecast for {{ city }}</h1>
+    <img src="{{ image_url }}" alt="Hourely forecast for {{ city }}">
+    <div class="wrapper">
+        <div class="button">
+            <div class="icon">
+                <a href="{{url_for('index')}}" class="icon">
+                    <img src="/static/images/home.png" width="30" height="30" alt="home">
+                </a>
+            </div>
+            <span>Home</span>
+        </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather forecast for {{ city }}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Weather Forecast for {{ city }}</h1>
+    <img src="{{ image_url }}" alt="Hourely forecast for {{ city }}">
+    <br>
+    <hr size="10">
+    <div class="wrapper">
+        <div class="button">
+            <div class="icon">
+                <a href="{{url_for('index')}}" class="icon">
+                    <img src="/static/images/home.png"  width="30" height="30"alt="home">
+                </a>
+            </div>
+            <span>Home</span>
+        </div>
+</body>
+</html>
