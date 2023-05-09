@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
+venv/
+.fuse_hidden*
 
 # C extensions
 *.so
