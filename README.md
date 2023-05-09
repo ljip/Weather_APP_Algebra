@@ -7,10 +7,10 @@ dodati api key u config/config.py
 ### Pregled značajki:
 
 
-• Prikaz trenutne prognoze za odabrani grad
-• Prikaz trodnevne prognoze za odabrani grad
-• Prikaz sedmodnevne prognoze za odabrani grad
-• Grafički prikaz minimalne i maksimalne temperature za prikazane prognoze
+- Prikaz trenutne prognoze za odabrani grad
+- Prikaz trodnevne prognoze za odabrani grad
+- Prikaz sedmodnevne prognoze za odabrani grad
+- Grafički prikaz minimalne i maksimalne temperature za prikazane prognoze
 
 ![](https://i.ibb.co/JzF1gK1/Snimka-zaslona-2023-05-09-181308.png)
 
