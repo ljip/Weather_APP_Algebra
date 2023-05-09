@@ -23,9 +23,11 @@ Otvorite terminal ili naredbeni redak. Navigirajte do glavnog direktorija projek
 Pokrenite naredbu specifičnu za svoj operativni sustav:
 
 Na Windowsu:
+
 `python -m venv venv`
 
 Na macOS-u i Linuxu: 
+
 `python3 -m venv venv`
 
 ###### Aktivirajte virtualno okruženje:
@@ -45,6 +47,7 @@ unutar tog okruženja.
 
 ###### Instalirajte pakete iz requirements.txt datoteke:
 Nakon što ste aktivirali virtualno okruženje, izvršite sljedeću naredbu:
+
 `pip install -r requirements.txt`
 
 Ova naredba će instalirati sve pakete navedene u requirements.txt datoteci u vaše virtualno okruženje.
